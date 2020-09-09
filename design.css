@@ -1,0 +1,50 @@
+.p{
+  background-color: lightgreen;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.h{
+  background-color: coral ;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 500;
+}
+div, .highlight{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+}
+a:link, a:visited{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+}
+a:hover, a:active{
+  background-color: orange;
+}
+table {
+font-family: arial, sans-serif;
+font-style: italic;
+font-weight: bold;
+border-collapse: collapse;
+width: 100%;
+}
+td, th {
+border: 1px solid #dddddd;
+text-align: center;
+padding: 8px;
+}
+tr:nth-child(odd) {
+background-color: #dddddd;
+}
